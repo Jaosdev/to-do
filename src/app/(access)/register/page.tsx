@@ -1,4 +1,9 @@
+"use client";
+import { useState } from "react";
+
 export default function RegisterPage() {
+  // const [nombre,setNombre] = useState<string>("");
+
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="w-full max-w-sm bg-white rounded-2xl shadow-md p-8">
